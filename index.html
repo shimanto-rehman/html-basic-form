@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CIB | Dana Fintech Ltd</title>
+    <style>
+        body {
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container {
+            margin: 0px auto;
+        }
+
+        p {
+            margin: 2px;
+        }
+
+        th,
+        td {
+            border: solid 1px #000;
+            padding: 2px;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-right {
+            text-align: right;
+        }
+
+        .table {
+            width: 100%;
+            margin: 5px 0px 0px 0px;
+        }
+
+        .table tr td {
+            padding: 0;
+            margin: 0;
+            border: none;
+        }
+        .table-info{
+            width: 100%;
+        }
+        .table-info td:nth-child(odd){
+            width: 15%;
+            border: none;
+        }
+        .table-info td:nth-child(even){
+            width: 35%;
+            border: none;
+        }
+
+        .quarter-hr {
+            width: 90%;
+            display: inline-block;
+            border-bottom: 1.5px dotted #000;
+            margin: 12px 0px 0px 10px;
+        }
+
+        .table-fixed-layout {
+            table-layout: fixed;
+        }
+
+        .footer-table {
+            margin: 80px 0px 20px 0px;
+        }
+
+        .table-bordered tr td {
+            border: 1px solid #000;
+            height: 4.2%;
+        }
+
+        .table-padded tr td {
+            padding: 5px;
+        }
+        .info-table{
+            width: 120%;
+            height: 0.5%;
+            margin: 0px;
+        }
+        .info-table tr td{
+            border: none;
+            padding: 0px;
+        }
+        .required {
+            color: red;
+            margin: 2px 2px;
+        }
+
+        h4 {
+            margin: 0px 0px;
+        }
+
+        h5 {
+            color: black;
+            margin: 10px 0px 10px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <table class="table">
+            <tr>
+                <td>
+                    <div>
+                        <p>Type of Financing:</p>
+                        <p>Number of Instalments:</p>
+                        <p>Periodicaity of Payment:</p>
+                        <p>Amount of loan applied for:</p>
+                        <p>Sector Type:</p>
+                        <p>Sector Code (6-digit):</p>
+                        <p>Branch Name:</p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <h3>CIB Subject Code:</h3>
+                        <p><b>FI Subject Code:</b> [Customer ID]</p>
+                        <p>(If Borrower is other than New)</p>
+                        <p>Date:</p>
+                        <p>Ref No:</p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <h4 class="text-center"><u>UNDERTAKING</u></h4>
+        <p class="text-right">(Attachment-Ka)</p>
+        <h4>Individual Subject data:</h4>
+        <table class="table-info">
+            <tr>
+                <td>
+                    <div>
+                        <h5><span class="required">*</span>Name: </h5>
+                        <h5><span class="required">*</span>Father's Name: </h5>
+                        <h5><span class="required">*</span>Mother's Name: </h5>
+                        <h5>Spouse's Name: </h5>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <h5><span class="quarter-hr"></h5>
+                        <h5><span class="quarter-hr"></h5>
+                        <h5><span class="quarter-hr"></h5>
+                        <h5><span class="quarter-hr"></h5>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <h5><span class="required">*</span>Date of Birth: </h5>
+                        <h5><span class="required">*</span>Gender: </h5>
+                        <h5><span class="required">*</span>District of Birth: </h5>
+                        <h5><span class="required">*</span>Country of Birth: </h5>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <h5><span class="quarter-hr"></h5>
+                        <h5><span class="quarter-hr"></h5>
+                        <h5><span class="quarter-hr"></h5>
+                        <h5><span class="quarter-hr"></h5>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <h4 style="color: black;"><span class="required">*</span>Permanent Address:</h4>   
+        <table class="table-info">
+            <tr>
+                <td>
+                    <div>
+                        <h5><span class="required">*</span>District: </span></h5>
+                        <h5><span class="required">*</span>Postal Code: </span></h5>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <h5><span class="quarter-hr"></h5>
+                        <h5><span class="quarter-hr"></h5>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <h5><span class="required">*</span>Street Name & Number: </span></h5>
+                        <h5><span class="required">*</span>Country: </span></h5>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <h5><span class="quarter-hr"></h5>
+                        <h5><span class="quarter-hr"></h5>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <h5 style="margin:0px 0px 10px 0px;">Phone Number:&nbsp; &nbsp; &nbsp;<div class="quarter-hr" style="width: 33.5%; margin:0px"></div>
+        </h5>
+        <h4>Other ID:</h4>
+        <h5 style="margin-bottom:5px;">ID Type: &nbsp; &nbsp;Passport&nbsp; /&nbsp; Driving Liscense /&nbsp; Birth Registration</h5>
+        <table class="info-table">
+            <tr>
+                <td><h5>ID Number:</h5></td>
+                <td><h5>ID Issue Date:</h5></td>
+                <td><h5>ID Issue Country:</h5></td>
+            </tr>
+        </table>
+        <h4 style="padding-bottom: 5px;">NID Number:</h4>
+        <h4>ETIN:</h4>
+        <div style="padding:0.5%"></div>
+        <table class="table loan-table table-bordered table-padded">
+            <thead>
+                <tr>
+                    <th rowspan="3">Sl. No</th>
+                    <th rowspan="3">Name of the Company</th>
+                    <th rowspan="3" style="width: 23%;">Main Address</th>
+                    <th rowspan="3" style="width: 23%;">Addition Address</th>
+                    <th colspan="3">Whether the company is avaling any loan or not</th>
+                </tr>
+                <tr>
+                    <th colspan="2">Yes</th>
+                    <th rowspan="2">No</th>
+                </tr>
+                <tr>
+                    <th>Name of the brank/FI</th>
+                    <th>Name of the branch</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="footer-table table table-fixed-layout">
+            <tr>
+                <td>
+                    <p>Seal and signature of Authorize Officer</p>
+                </td>
+                <td class="text-right">
+                    <p>Signature of Customer</p>
+                </td>
+            </tr>
+        </table>
+        <h5 class="required">'*' indicates Mandatory field</h5>
+    </div>
+</body>
+
+</html>
